@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [LeafTapsSuite]" parallel="classes">
+  <test thread-count="5" verbose="5" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="testCase.MergeLeadTest">
+        <methods>
+          <include name="setTestCaseDetail"/>
+          <include name="stopReport"/>
+          <include name="startReport"/>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+          <include name="runMergeLead" invocation-numbers="0"/>
+          <include name="setFile"/>
+        </methods>
+      </class> <!-- testCase.MergeLeadTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [LeafTapsSuite] -->
